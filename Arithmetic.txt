@@ -1,0 +1,27 @@
+package MathAttempt;
+
+public class MathClass {
+
+        public static void main(String[] args) {
+
+                int num1 = 100;
+                int num2 = 20;
+                int answer = 0;
+
+                answer = num1 + num2;
+                System.out.println("Addition rule = " + answer);
+
+                answer = num1 - num2;
+                System.out.println("Subtraction rule = " + answer);
+
+                answer = num1 * num2;
+                System.out.println("Multiplication rule = " + answer);
+
+                answer = num1 / num2;
+                System.out.println("Division rule = " + answer);
+
+                answer = num1 % num2;
+                System.out.println("Remainder rule = " + answer);
+        }
+
+}
