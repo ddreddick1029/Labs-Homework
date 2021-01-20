@@ -1,0 +1,16 @@
+package MathAttempt;
+
+public class ComputeArea {
+
+public static void main(String[] args) {
+
+double radius;
+double area;
+
+radius = 10 * 2;
+area = radius * radius * 3.141559;
+
+System.out.println("The result of the area = " + area );
+}
+
+}
